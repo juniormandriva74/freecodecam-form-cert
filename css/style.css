@@ -6,3 +6,34 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    min-height: 100vh;
+    background: #222;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+main p {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
