@@ -23,8 +23,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    width: 500px;
+    height: 1024px;
+    width: 600px;
     border: 1px solid #000;
     box-shadow: 5px 5px #fff;
 }
@@ -32,7 +32,7 @@ main {
 main h1 {
     font-weight: 700;
     font-size: 2.2rem;
-    margin-top: -150px;
+    /*margin-top: -80px;*/
 }
 
 main p {

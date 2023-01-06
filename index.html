@@ -28,7 +28,7 @@
         />
 
         <label for="number">Age:</label>
-        <input type="number" name="" id="number" class="form" min="18" max="60">
+        <input placeholder="Idade aqui" type="number" name="" id="number" class="form" min="18" max="60">
 
         <label for="dropdown">Sex:</label>
         <select name="" id="dropdown" class="form">
@@ -36,8 +36,19 @@
           <option value="masculino">Female</option>
         </select>
 
+        <label for="">Estado Civil:</label>
+        <input type="radio" name="estado-civil" id="Solteiro"><span>Solteiro</span>
+        <input type="radio" name="estado-civil" id="casado"><span>Casado</span>
+        <input type="radio" name="estado-civil" id="divorciado"><span>Divorciado</span>
+        <input type="radio" name="estado-civil" id="outros"><span>Outros</span>
+
         <label for="">Profissão:</label>
-        <input type="checkbox" name="" id="" value="Development">
+        <input type="checkbox" name="" id="" value="Development"><span>Desenvolvedor</span>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="cometarios" id="comentatios" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="enviar">
 
       </form>
     </main>
