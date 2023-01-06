@@ -54,8 +54,21 @@ main form input {
     border: none;
     outline: none;
     border-radius: 5px;
-    border-bottom: 3px;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+main form input:hover {
+    border-bottom: 5px;
+    transition: all .2s;
+}
+
+main form select {
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.form {
+    cursor: pointer;
 }
